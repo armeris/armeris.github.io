@@ -1,21 +1,24 @@
 import React from 'react';
-// import { Link } from 'gatsby';
-
 import Layout from '../components/layout';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Content from '../components/Content';
+import HeaderContent from '../components/HeaderContent';
 
 const IndexPage = () => (
+        <>
+        <head><title>Uala</title></head>
+        <body>
   <Layout>
     <>
       <div id="bg" />
       <div id="overlay" />
       <div id="main">
-        <Header />
-        <Footer />
+        <HeaderContent/>
+        <Content />
       </div>
     </>
-  </Layout>
+        </Layout>
+        </body>
+        </>
 );
 
 export default IndexPage;
