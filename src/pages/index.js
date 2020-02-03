@@ -1,8 +1,10 @@
 import React from 'react';
 import LayoutHeader from '../components/LayoutHeader';
 import LayoutContent from '../components/LayoutContent';
-import Content from '../components/Content';
 import HeaderContent from '../components/HeaderContent';
+import ComponentLocation from '../components/ComponentLocation';
+import ComponentSchedule from '../components/ComponentSchedule';
+import ComponentOther from '../components/ComponentOther';
 
 const IndexPage = () => (
     <>
@@ -12,10 +14,13 @@ const IndexPage = () => (
       <div id="main">
         <HeaderContent/>
       </div>
-        </LayoutHeader>
-        <LayoutContent>
-        </LayoutContent>
-        </>
+  </LayoutHeader>
+  <LayoutContent>
+        <ComponentLocation/>
+        <ComponentSchedule/>
+        <ComponentOther/>
+  </LayoutContent>
+     </>
 );
 
 export default IndexPage;

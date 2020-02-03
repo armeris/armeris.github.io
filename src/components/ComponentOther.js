@@ -3,6 +3,6 @@ import config from '../../config';
 
 export default function ComponentLocation() {
     return (
-        <p>Location</p>
+        <p>Other</p>
     );
 }
