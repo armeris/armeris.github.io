@@ -1,23 +1,21 @@
 import React from 'react';
-import Layout from '../components/layout';
+import LayoutHeader from '../components/LayoutHeader';
+import LayoutContent from '../components/LayoutContent';
 import Content from '../components/Content';
 import HeaderContent from '../components/HeaderContent';
 
 const IndexPage = () => (
-        <>
-        <head><title>Uala</title></head>
-        <body>
-  <Layout>
     <>
+  <LayoutHeader>
       <div id="bg" />
       <div id="overlay" />
       <div id="main">
         <HeaderContent/>
-        <Content />
       </div>
-    </>
-        </Layout>
-        </body>
+        </LayoutHeader>
+        <LayoutContent>
+        <Content />
+        </LayoutContent>
         </>
 );
 

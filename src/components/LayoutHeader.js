@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
-
+import Helmet from 'react-helmet';
 import '../assets/sass/main.scss';
-const Layout = ({ children, darkText }) => (
+const LayoutHeader = ({ children, darkText }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -15,8 +15,12 @@ const Layout = ({ children, darkText }) => (
       }
     `}
     render={data => (
-      <>
-        <div id="wrapper" className={darkText ? 'dark-text' : ''}>
+            <>
+            <Helmet
+        title={data.site.siteMetadata.title}>
+            <html lang="es"/>
+            </Helmet>
+        <div id="wrapper-header" className={darkText ? 'dark-text' : ''}>
           {children}
         </div>
       </>
@@ -24,9 +28,9 @@ const Layout = ({ children, darkText }) => (
   />
 );
 
-Layout.propTypes = {
+LayoutHeader.propTypes = {
   children: PropTypes.node.isRequired,
   darkText: PropTypes.bool,
 };
 
-export default Layout;
+export default LayoutHeader;

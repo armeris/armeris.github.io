@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../components/layout';
+import LayoutHeader from '../components/LayoutHeader';
 
 const NotFoundPage = () => (
-  <Layout darkText>
+  <LayoutHeader darkText>
     <h1>NOT FOUND</h1>
     <p>Not a valid URL</p>
-  </Layout>
+  </LayoutHeader>
 );
 
 export default NotFoundPage;
