@@ -289,7 +289,7 @@ a {
 
 #wrapper-header {
   @include vendor('animation', 'wrapper #{_duration(wrapper)} forwards');
-  height: 800px;
+  height: 1000px;
   left: 0;
   opacity: 0;
   position: relative;
@@ -307,6 +307,7 @@ a {
   display: block;
   top: 0;
   width: 100%;
+
 }
 
 /* BG */
@@ -350,7 +351,7 @@ a {
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
-  height: 800px;
+  height: 100%;
   left: 0;
   opacity: 0;
   position: fixed;
@@ -431,15 +432,34 @@ a {
 
 }
 
-#text {
-  bottom: 0;
-  cursor: default;
-  height: auto;
+#intro {
+  @include vendor(
+    'animation',
+    'header #{_duration(header)} #{$delay-header} forwards'
+  );
+    cursor: default;
+  display: inline-block;
+  opacity: 0;
+  position: absolute;
+  top: 25em;
   left: 0;
-  line-height: 8em;
-  position: relative;
   text-align: center;
+  vertical-align: middle;
   width: 100%;
+
+  h1 {
+    font-size: 4.35em;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+  }
+
+  p {
+    font-size: 1.25em;
+    margin: 0.75em 0 0.25em 0;
+    opacity: 0.75;
+  }
+
 }
 
 /* Wide */
