@@ -1,8 +1,10 @@
 import React from 'react';
-import config from '../../config';
 
 export default function ComponentLocation() {
     return (
-        <p>Other</p>
+        <div id="other" class="inline">
+            <p>Etiqueta:</p>
+            <p>La etiqueta es que no hay etiqueta. Queremos que vengáis a celebrar este día tan especial con nosotros, y podéis venir arreglados como más os guste.</p>
+        </div>
     );
 }
