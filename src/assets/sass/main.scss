@@ -37,12 +37,12 @@
 
 // Mixins.
 
-@mixin bg($width) {
+@mixin bg {
     #bg {
         background: #348cb2 url('../images/test-bg.jpg') bottom left no-repeat;
         background-position: 90% 100%;
-        background-size: $width auto;
-        width: ($width * 86)/100;
+        background-size: 100% auto;
+        width: 100%;
     }
 }
 
@@ -63,7 +63,6 @@ applet,
 object,
 iframe,
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -224,7 +223,7 @@ html {
     clear: both;
 }
 body {
-    background: _palette(bg);
+    background: #ffeccf;
 
     // Stops initial animations until page loads.
     &.is-preload {
@@ -308,13 +307,30 @@ a {
 }
 
 #wrapper-content {
-    height: auto;
-    left: 0;
-    opacity: 1;
-    position: relative;
-    display: block;
-    top: 0;
-    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+
+    h2.content-title {
+        font-weight: bold;
+        font-size: 1.15em;
+    }
+
+    .content-box {
+        background-color: #cc9966;
+        width: 30%;
+        height: 600px;
+        display:inline-block;
+        margin:10px;
+        border-radius:5px;
+        vertical-align: top;
+    }
+
+    .content-text {
+        text-align: justify;
+        padding: 20px;
+        color:white;
+        font-weight: 500;
+    }
 
     #location {
         padding: 20px;
@@ -362,7 +378,7 @@ a {
     top: 0;
 }
 
-@include bg(_misc(bg-width) * 1.5);
+@include bg;
 
 /* Overlay */
 
@@ -511,7 +527,7 @@ a {
 
     /* BG */
 
-    @include bg(_misc(bg-width));
+    @include bg;
 }
 
 /* Normal */
@@ -528,7 +544,7 @@ a {
 
     /* BG */
 
-    @include bg(_misc(bg-width) * 0.5);
+    @include bg;
 }
 
 /* Mobile */
@@ -549,13 +565,17 @@ a {
 
     /* BG */
 
-    @include bg(_misc(bg-width) * 0.2);
+    @include bg;
 
     /* Header */
 
     #header {
         h1 {
             font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 1.75em;;
         }
 
         p {
@@ -570,6 +590,6 @@ a {
 @include breakpoint('<=mobilep') {
     /* BG */
 
-    @include bg(_misc(bg-width) * 0.275);
+    @include bg;
 
 }

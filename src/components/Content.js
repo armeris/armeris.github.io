@@ -1,5 +1,4 @@
 import React from 'react';
-import config from '../../config';
 
 export default function Content() {
     return (
@@ -8,5 +7,5 @@ export default function Content() {
             <p>Más bal blab albalblablab labl albalb lab la blalbalblal</p>
             <p>Y ya se acaba e lbal bla blablal lablablalblaabla</p>
             </article>
-    )
+    );
 }
