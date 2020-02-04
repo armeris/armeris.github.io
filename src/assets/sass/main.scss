@@ -39,7 +39,7 @@
 
 @mixin bg($width) {
   #bg {
-      background: #348cb2 url('../images/test-bg.jpg') bottom left;
+      background: #348cb2 url('../images/test-bg.jpg') bottom left no-repeat;
       background-position: 90% 100%;
       background-size: $width auto;
       width: ($width * 86)/100;
@@ -297,6 +297,14 @@ a {
   top: 0;
   width: 100%;
   overflow: hidden;
+}
+
+#separator {
+    height: auto;
+    background-color: #1a4000;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
 }
 
 #wrapper-content {

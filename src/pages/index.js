@@ -5,22 +5,24 @@ import HeaderContent from '../components/HeaderContent';
 import ComponentLocation from '../components/ComponentLocation';
 import ComponentSchedule from '../components/ComponentSchedule';
 import ComponentOther from '../components/ComponentOther';
+import Separator from '../components/ComponentSeparator';
 
 const IndexPage = () => (
     <>
-  <LayoutHeader>
-      <div id="bg" />
-      <div id="overlay" />
-      <div id="main">
-        <HeaderContent/>
-      </div>
-  </LayoutHeader>
-  <LayoutContent>
+      <LayoutHeader>
+        <div id="bg" />
+        <div id="overlay" />
+        <div id="main">
+          <HeaderContent/>
+        </div>
+      </LayoutHeader>
+      <Separator/>
+      <LayoutContent>
         <ComponentLocation/>
         <ComponentSchedule/>
         <ComponentOther/>
-  </LayoutContent>
-     </>
+      </LayoutContent>
+    </>
 );
 
 export default IndexPage;
