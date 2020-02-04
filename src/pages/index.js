@@ -10,13 +10,14 @@ import Separator from '../components/ComponentSeparator';
 const IndexPage = () => (
     <>
       <LayoutHeader>
-        <div id="bg" />
+    <div id="bg">
+      <Separator/>
+    </div>
         <div id="overlay" />
         <div id="main">
           <HeaderContent/>
         </div>
       </LayoutHeader>
-      <Separator/>
       <LayoutContent>
         <ComponentLocation/>
         <ComponentSchedule/>
