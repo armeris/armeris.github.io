@@ -23,6 +23,7 @@ const IndexPage = () => (
         <ComponentSchedule/>
         <ComponentOther/>
       </LayoutContent>
+      <div id="blackcat"></div>
     </>
 );
 

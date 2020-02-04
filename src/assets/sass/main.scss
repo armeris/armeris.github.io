@@ -307,6 +307,17 @@ a {
     position: absolute;
 }
 
+#blackcat {
+    opacity: 0.6;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: url('../images/black-cat.svg') bottom right;
+    background-size: 100px 100px;
+}
+
 #wrapper-content {
     white-space: nowrap;
     text-align: center;
