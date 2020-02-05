@@ -15,11 +15,10 @@ const LayoutHeader = ({ children, darkText }) => (
       }
     `}
     render={data => (
-            <>
-            <Helmet
-        title={data.site.siteMetadata.title}>
-            <html lang="es"/>
-            </Helmet>
+      <>
+        <Helmet title={data.site.siteMetadata.title}>
+          <html lang="es" />
+        </Helmet>
         <div id="wrapper-header" className={darkText ? 'dark-text' : ''}>
           {children}
         </div>

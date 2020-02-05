@@ -4,6 +4,6 @@ module.exports = {
   // social
 
   pageTitle: 'Boda Laura & Rubén',
-    weddingDate: '16 de Mayo de 2020',
-    firstParagraph: 'Mucho más allááááááááá!!!'
+  weddingDate: '16 de Mayo de 2020',
+  firstParagraph: 'Mucho más allááááááááá!!!',
 };
