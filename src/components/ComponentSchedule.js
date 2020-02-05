@@ -14,7 +14,7 @@ export default function ComponentLocation() {
           las 00:00 que termina la celebración oficial.
         </p>
         <p>
-          Y para los que tengan fuerzas (y sean mayores de edad) os podéis
+          Y para los que tengáis fuerzas (y seáis mayores de edad) os podéis
           quedar en GU hasta que cierren u os echen, lo que ocurra primero.
         </p>
       </div>

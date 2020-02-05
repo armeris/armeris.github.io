@@ -230,7 +230,7 @@ html {
     clear: both;
 }
 body {
-    background: #ffeccf;
+    background: #ccddcc;
 
     // Stops initial animations until page loads.
     &.is-preload {
@@ -339,7 +339,7 @@ a {
     }
 
     .content-box {
-        background-color: #cc9966;
+        background-color: #333300;
         width: 30%;
         display:inline-block;
         @media screen and (max-width: 480px) {
