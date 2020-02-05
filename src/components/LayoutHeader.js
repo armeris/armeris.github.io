@@ -20,7 +20,7 @@ const LayoutHeader = ({ children, darkText }) => (
           <html lang="es" />
           <meta property="og:title" content="Boda Laura & Rubén"/>
           <meta property="og:url" content="https://www.bodalaurayruben.com"/>
-          <meta property="og:image" content="https://www.bodalaurayruben.com/static/test-bg-94a248e26c95434b977311765a2bef6c.jpg"/>
+          <meta property="og:image" content="https://www.bodalaurayruben.com/static/invi-back.jpg"/>
         </Helmet>
         <div id="wrapper-header" className={darkText ? 'dark-text' : ''}>
           {children}
