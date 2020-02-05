@@ -40,7 +40,7 @@
 @mixin bg {
     #bg {
         @media screen and (max-width: 480px) {
-            background: #cc9966 url('../images/invi_back.jpg');
+            background: #cc9966 url('../images/test-bg.jpg');
             background-position: -450px 100%;
         }
         @media screen and (min-width: 480px) and (max-width: 800px) {
