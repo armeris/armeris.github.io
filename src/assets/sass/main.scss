@@ -303,6 +303,7 @@ a {
     top: 0;
     width: 100%;
     overflow: hidden;
+    box-shadow: 0 1px 1px 1px darkgray;
 }
 
 #separator {
@@ -362,6 +363,7 @@ a {
         border-radius:5px;
         vertical-align: top;
         white-space: normal;
+        box-shadow: 1px 1px 1px 1px darkgray;
     }
 
     .content-text {
@@ -381,7 +383,7 @@ a {
     /* Set your background with this */
     background: _misc(bg);
 
-    background-repeat: repeat-x;
+    background-repeat: none;
     height: 1000px;
     left: 0;
     opacity: 1;
