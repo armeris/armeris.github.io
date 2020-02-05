@@ -6,6 +6,7 @@ import ComponentLocation from '../components/ComponentLocation';
 import ComponentSchedule from '../components/ComponentSchedule';
 import ComponentOther from '../components/ComponentOther';
 import Separator from '../components/ComponentSeparator';
+import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <>
@@ -23,6 +24,7 @@ const IndexPage = () => (
       <ComponentSchedule />
       <ComponentOther />
     </LayoutContent>
+    <Footer/>
     <div id="blackcat"></div>
   </>
 );
