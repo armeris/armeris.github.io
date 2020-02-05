@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Boda Laura & Rubén', // <title>
-  pathPrefix: `/invitacion`, // This path is subpath of your hosting https://domain/portfolio
+    pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
     // social
   authorName: 'Rubén Salinas',
 
