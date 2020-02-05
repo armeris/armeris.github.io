@@ -40,15 +40,15 @@
 @mixin bg {
     #bg {
         @media screen and (max-width: 480px) {
-            background: #cc9966 url('../images/test-bg.jpg');
+            background: #cc9966 url('./static/test-bg.jpg');
             background-position: -450px 100%;
         }
         @media screen and (min-width: 480px) and (max-width: 800px) {
-            background: #cc9966 url('../images/test-bg.jpg');
+            background: #cc9966 url('./static/test-bg.jpg');
             background-position: -450px 100%;
 
         }
-        background: #cc9966 url('../images/test-bg.jpg') bottom left no-repeat;
+        background: #cc9966 url('./static/test-bg.jpg') bottom left no-repeat;
         width: 100%;
     }
 }
