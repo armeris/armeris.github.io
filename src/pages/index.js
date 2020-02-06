@@ -7,6 +7,7 @@ import ComponentSchedule from '../components/ComponentSchedule';
 import ComponentOther from '../components/ComponentOther';
 import Separator from '../components/ComponentSeparator';
 import Footer from '../components/Footer';
+import Please from '../components/ComponentPlease';
 
 const IndexPage = () => (
   <>
@@ -24,8 +25,10 @@ const IndexPage = () => (
       <ComponentSchedule />
       <ComponentOther />
     </LayoutContent>
+    <Please/>
     <Footer/>
     <div id="blackcat"></div>
+    <div id="none"></div>
   </>
 );
 
