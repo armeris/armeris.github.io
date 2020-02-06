@@ -25,8 +25,8 @@ const IndexPage = () => (
       <ComponentSchedule />
       <ComponentOther />
     </LayoutContent>
-    <Please/>
-    <Footer/>
+    <Please />
+    <Footer />
     <div id="blackcat"></div>
     <div id="none"></div>
   </>
