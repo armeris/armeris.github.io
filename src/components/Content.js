@@ -10,7 +10,7 @@ export default function Content() {
       <h2>¡¡¡CASARNOS!!!</h2>
       <p>
         Así que como eres una de esas personas que hemos tenido la suerte de
-        encontranos en nuestro camino, esperamos que puedas venir a celebrarlo
+        encontrarnos en nuestro camino, esperamos que puedas venir a celebrarlo
         con nosotros.
       </p>
       <p>Aquí debajo tenéis los detalles =)</p>
