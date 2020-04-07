@@ -19,7 +19,7 @@ const LayoutHeader = ({ children, darkText }) => (
         <Helmet title={data.site.siteMetadata.title}>
           <html lang="es" />
           <meta property="og:title" content="Boda Laura & Rubén" />
-          <meta property="og:description" content="16 de Mayo de 2020" />
+          <meta property="og:description" content="17 de Octubre de 2020" />
           <meta property="og:url" content="https://www.bodalaurayruben.com" />
           <meta
             property="og:image"
