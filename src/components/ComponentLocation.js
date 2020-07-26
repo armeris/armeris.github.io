@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function ComponentLocation() {
   return (
-    <div class="content-box">
-      <div class="content-text">
-        <h2 class="content-title">Localización:</h2>
+      <div className={"content-box"}>
+        <div className={"content-text"}>
+          <h2 className={"content-title"}>Localización:</h2>
         <p>
           La celebración será en GU San Sebastián, justo al lado del
           ayuntamiento.

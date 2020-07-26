@@ -5,6 +5,5 @@ module.exports = {
   authorName: 'Rubén Salinas',
 
   pageTitle: 'Boda Laura & Rubén',
-  weddingDate: '17 de Octubre de 2020',
-  firstParagraph: 'Mucho más allááááááááá!!!',
+  weddingDate: '-- de -- de --',
 };

@@ -569,6 +569,28 @@ a {
 
 }
 
+#delayed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1100px;
+    z-index: 1;
+
+    div {
+        display: block;
+        margin-top: 450px;
+        transform: rotate(-20deg);
+        p {
+        display: inline;
+        vertical-align: middle;
+        color: red;
+        font-size: 256px;
+        font-weight: bolder;
+        }
+    }
+}
+
 /* Wide */
 
 @include breakpoint('<=wide') {
