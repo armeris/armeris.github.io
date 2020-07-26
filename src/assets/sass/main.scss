@@ -668,6 +668,15 @@ a {
         color:red;
         font-weight: 500;
     }
+
+    #delayed {
+        div {
+            margin-top: 300px;
+            p {
+                font-size: 64px;
+            }
+        }
+    }
 }
 
 /* Mobile (Portrait) */
